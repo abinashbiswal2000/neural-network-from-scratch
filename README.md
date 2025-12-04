@@ -52,13 +52,12 @@ Output Layer:   10 neurons + Softmax
 ```bash
 numpy
 matplotlib
-torch
 torchvision
 ```
 
 Install dependencies:
 ```bash
-pip install numpy matplotlib torch torchvision
+pip install numpy matplotlib torchvision
 ```
 
 Note: PyTorch is only used for loading the MNIST dataset via `torchvision.datasets`, not for building the neural network.
